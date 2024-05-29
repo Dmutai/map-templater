@@ -20,8 +20,6 @@ with st.expander("See source code"):
         m = athigeo.Map()
         m.add_basemap("OpenTopoMap")
         m.add_basemap("Esri.WorldImagery")
-        m.add_basemap("Strava.Ride")
-        m.add_basemap("Strava.Run")
         m.add_layer_control()
 
 
